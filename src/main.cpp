@@ -18,7 +18,7 @@ __unused void setup() {
     // Setup wifi
     WiFi.begin(wifiNetworkName, wifiNetworkPassword);
 
-    long start = millis();
+    unsigned long start = millis();
     while (WiFiClass::status() != WL_CONNECTED) { // Wait for the Wi-Fi to connect
         delay(10);
         Serial.print('.');
