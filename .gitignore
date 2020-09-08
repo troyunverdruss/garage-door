@@ -5,3 +5,4 @@ cmake-build-*/
 .idea/usage.statistics.xml
 .idea/tasks.xml
 .idea/shelf
+secrets.cpp
